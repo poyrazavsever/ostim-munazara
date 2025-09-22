@@ -96,10 +96,37 @@ const RastgeleKonu: React.FC = () => {
           </button>
         </div>
 
+        {/* Seçili konu detay kartı */}
+        {seciliKonu && (
+          <div
+            ref={sonucRef}
+            className="bg-white rounded-xl border border-neutral-200 p-6 my-12 max-w-7xl mx-auto animate-fade-in"
+          >
+            <h2 className="text-xl font-bold text-neutral-700 mb-2 flex items-center gap-2">
+              {seciliKonu.ad}
+            </h2>
+            <div className="mb-2 text-sm text-neutral-600 flex items-center gap-2">
+              <Icon icon="mdi:tag-outline" width={18} height={18} />
+              <span className="font-semibold">Kategori:</span>{" "}
+              {seciliKonu.kategori}
+            </div>
+            <div className="mb-2 text-sm text-neutral-600 flex items-center gap-2">
+              <Icon icon="mdi:calendar-month-outline" width={18} height={18} />
+              <span className="font-semibold">Veriliş Tarihi:</span>{" "}
+              {seciliKonu.tarih}
+            </div>
+            <div className="mb-2 text-sm text-neutral-600 flex items-center gap-2">
+              <Icon icon="mdi:map-marker-outline" width={18} height={18} />
+              <span className="font-semibold">Verilen Yer:</span>{" "}
+              {seciliKonu.yer}
+            </div>
+          </div>
+        )}
+
         {/* Filtrelenmiş konu listesi (kartlar) */}
         <div className="mb-8">
           {filteredTopics.length === 0 ? (
-            <div className="text-center text-neutral-500 py-8">
+            <div className="text-center text-neutral-500 py-16">
               Seçili kategoride konu bulunamadı.
             </div>
           ) : (
@@ -126,33 +153,6 @@ const RastgeleKonu: React.FC = () => {
             </div>
           )}
         </div>
-
-        {/* Seçili konu detay kartı */}
-        {seciliKonu && (
-          <div
-            ref={sonucRef}
-            className="bg-white rounded-xl border border-neutral-200 p-6 max-w-7xl mx-auto animate-fade-in"
-          >
-            <h2 className="text-xl font-bold text-neutral-700 mb-2 flex items-center gap-2">
-              {seciliKonu.ad}
-            </h2>
-            <div className="mb-2 text-sm text-neutral-600 flex items-center gap-2">
-              <Icon icon="mdi:tag-outline" width={18} height={18} />
-              <span className="font-semibold">Kategori:</span>{" "}
-              {seciliKonu.kategori}
-            </div>
-            <div className="mb-2 text-sm text-neutral-600 flex items-center gap-2">
-              <Icon icon="mdi:calendar-month-outline" width={18} height={18} />
-              <span className="font-semibold">Veriliş Tarihi:</span>{" "}
-              {seciliKonu.tarih}
-            </div>
-            <div className="mb-2 text-sm text-neutral-600 flex items-center gap-2">
-              <Icon icon="mdi:map-marker-outline" width={18} height={18} />
-              <span className="font-semibold">Verilen Yer:</span>{" "}
-              {seciliKonu.yer}
-            </div>
-          </div>
-        )}
       </div>
     </main>
   );
