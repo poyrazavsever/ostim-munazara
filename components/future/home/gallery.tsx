@@ -7,7 +7,6 @@ const IMAGES = [
   { src: "/images/gallery-1.jpeg", alt: "Paint ile ders işliyoruz." },
   { src: "/images/gallery-2.jpeg", alt: "Talha ve Poyraz İstanbul Yolunda" },
   { src: "/images/gallery-3.jpeg", alt: "Talha, Poyraz ve Halit çok acıkmış" },
-  { src: "/images/gallery-4.jpeg", alt: "2 saat uyku ile konu bekliyoruz" },
 ];
 
 const container = {
