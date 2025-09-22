@@ -5,9 +5,6 @@ import path from "path";
 import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
 
-interface BlogDetailProps {
-  params: { slug: string };
-}
 
 interface BlogFrontmatter {
   title: string;
@@ -29,7 +26,7 @@ const getBlogContent = (slug: string): BlogData => {
   return { ...(data as BlogFrontmatter), content };
 };
 
-const DetailBlog = async ({ params }: BlogDetailProps) => {
+const DetailBlog = async ({ params }: { params: { slug: string } }) => {
   const { slug } = params;
   const blog = getBlogContent(slug);
 
