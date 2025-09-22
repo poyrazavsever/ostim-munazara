@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Icon } from "@iconify/react";
 
 type HeroSectionProps = {
   imageSrc?: string;
@@ -43,21 +44,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
                 className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
               >
                 Tüm Yazılar
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M5 12h14M13 5l7 7-7 7"
-                    stroke="currentColor"
-                    strokeWidth="1.6"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+                <Icon icon="mdi:arrow-right" width={16} height={16} />
               </Link>
             </div>
           </div>
@@ -65,7 +52,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
         {/* Görsel + alt overlay kartı */}
         <div className="mt-8">
-          <div className="relative overflow-hidden rounded-3xl bg-white shadow-sm border border-neutral-200">
+          <div className="relative overflow-hidden rounded-3xl bg-white border border-neutral-200">
             <Image
               src={imageSrc}
               alt="Ostim Münazara ve Hitabet - Kahraman görsel"
