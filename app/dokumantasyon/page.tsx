@@ -32,7 +32,7 @@ const getTabContent = (tab: string): string => {
   }
 };
 
-const Dokumantasyon = ({ searchParams }: TabProps) => {
+const Dokumantasyon = ({ searchParams }: any) => {
   const activeTab = searchParams?.tab || "munazara-nedir";
   const content = getTabContent(activeTab);
 
