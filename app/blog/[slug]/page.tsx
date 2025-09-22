@@ -19,6 +19,12 @@ interface BlogData extends BlogFrontmatter {
   content: string;
 }
 
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
+
 const getBlogContent = (slug: string): BlogData => {
   const filePath = path.join(process.cwd(), "content", `${slug}.md`);
   const fileContent = fs.readFileSync(filePath, "utf8");
@@ -26,7 +32,8 @@ const getBlogContent = (slug: string): BlogData => {
   return { ...(data as BlogFrontmatter), content };
 };
 
-const DetailBlog = async ({ params }: { params: { slug: string } }) => {
+
+const DetailBlog = async ({ params }: PageProps) => {
   const { slug } = params;
   const blog = getBlogContent(slug);
 
