@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Hakkimizda() {
   return (
-    <main className="bg-white text-neutral-800">
+    <main className="text-neutral-800">
       {/* Hero (About giriş) */}
       <section className="pt-16 sm:pt-24 pb-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
