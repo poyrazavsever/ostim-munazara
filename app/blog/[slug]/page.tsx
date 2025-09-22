@@ -19,11 +19,6 @@ interface BlogData extends BlogFrontmatter {
   content: string;
 }
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
 
 const getBlogContent = (slug: string): BlogData => {
   const filePath = path.join(process.cwd(), "content", `${slug}.md`);
@@ -41,7 +36,7 @@ export async function generateStaticParams() {
 }
 
 
-const DetailBlog = async ({ params }: { params: { slug: string } }) => {
+const DetailBlog = async ({ params }: any) => {
   const { slug } = params;
   const blog = getBlogContent(slug);
 
