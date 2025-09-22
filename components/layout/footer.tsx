@@ -8,12 +8,12 @@ import { Icon } from "@iconify/react";
 // (ör. src/config/nav.ts) taşınabilir.
 const socialLinks = [
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/company/ostimtech-munazara-hitabet",
     icon: "mdi:linkedin",
     label: "LinkedIn",
   },
   {
-    href: "https://www.instagram.com/",
+    href: "https://www.instagram.com/ostim_munazara/",
     icon: "mdi:instagram",
     label: "Instagram",
   },
