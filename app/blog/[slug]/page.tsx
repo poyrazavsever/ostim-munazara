@@ -32,8 +32,16 @@ const getBlogContent = (slug: string): BlogData => {
   return { ...(data as BlogFrontmatter), content };
 };
 
+export async function generateStaticParams() {
+  const blogDir = path.join(process.cwd(), "content");
+  const files = fs.readdirSync(blogDir);
+  return files.map((file) => ({
+    slug: file.replace(/\.md$/, ""),
+  }));
+}
 
-const DetailBlog = async ({ params }: PageProps) => {
+
+const DetailBlog = async ({ params }: { params: { slug: string } }) => {
   const { slug } = params;
   const blog = getBlogContent(slug);
 
