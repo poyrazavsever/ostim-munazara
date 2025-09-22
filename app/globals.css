@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
 @import "tailwindcss";
 
 @theme {
     --color-primary: #8e183a;
     --color-bg:#ffffff;
+    --color-secondary:#f6f7f3;
     --color-text:#333333;
+
+    --font-wind: "WindSong", cursive
 }
 
 body {
