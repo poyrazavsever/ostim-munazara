@@ -40,7 +40,7 @@ const RastgeleKonu: React.FC = () => {
     : konular;
 
   return (
-    <main className="bg-neutral-50 min-h-screen py-10">
+    <main className="min-h-screen py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-0">
         <h1 className="text-3xl font-bold mb-8 text-primary flex items-center gap-2">
           <Icon
