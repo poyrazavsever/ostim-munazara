@@ -129,25 +129,6 @@ export default function Gallery() {
               </button>
             </motion.figure>
           </div>
-
-          {/* Alt şerit: ince panorama (opsiyonel, md ve üstü) */}
-          <motion.figure
-            variants={item}
-            className="col-span-12 hidden md:block rounded-2xl overflow-hidden border border-neutral-200"
-          >
-            <button
-              onClick={() => setLightbox({ index: 3 })}
-              className="group block w-full focus:outline-none"
-            >
-              <div className="relative h-[24vh] lg:h-[20vh]">
-                <img
-                  src={imgs[3].src}
-                  alt={imgs[3].alt}
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                />
-              </div>
-            </button>
-          </motion.figure>
         </motion.div>
       </div>
 
