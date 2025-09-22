@@ -2,7 +2,7 @@ import Takvim from "@/components/ui/Takvim";
 
 const EtkinlikTakvimi = () => {
   return (
-    <main className="bg-white min-h-screen py-10">
+    <main className="min-h-screen py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-0">
         <h1 className="text-3xl font-bold mb-6 text-primary">Etkinlik Takvimi</h1>
         <Takvim />
