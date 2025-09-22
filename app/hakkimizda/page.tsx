@@ -100,28 +100,6 @@ export default function Hakkimizda() {
           </ol>
         </div>
       </section>
-
-      <section className="py-12 sm:py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h3 className="text-2xl sm:text-3xl font-semibold">Ekibimiz</h3>
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {[1, 2, 3, 4].map((i) => (
-              <div
-                key={i}
-                className="rounded-2xl border border-neutral-200 p-4"
-              >
-                <div className="aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-100" />
-                <div className="mt-3">
-                  <div className="font-semibold">Üye Adı</div>
-                  <div className="text-sm text-neutral-600">
-                    Görev / Sorumluluk
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
