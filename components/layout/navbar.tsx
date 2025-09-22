@@ -27,12 +27,12 @@ const navLinks = [
     label: "Uygulamalar",
     dropdown: [
       {
-        href: "/konum-ayarla",
+        href: "https://konum.ostimmunazara.com",
         label: "Konum Ayarla",
         desc: "Maçta rastgele bir konum belirlemenizi sağlar.",
       },
       {
-        href: "/rastgele-konu",
+        href: "https://rastgele.ostimmunazara.com",
         label: "Rastgele Konu",
         desc: "Rastgele bir münazara konusu önerir.",
       },
