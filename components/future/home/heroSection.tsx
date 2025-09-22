@@ -19,7 +19,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Sol başlık */}
           <div className="lg:col-span-2">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl leading-tight font-semibold text-neutral-700">
-              Düşün, Konuş. <br className="hidden sm:block" />{" "}
+              Düşün, Konuş, <br className="block" />{" "}
               <span className="font-wind text-primary">İkna Et.</span>
             </h1>
           </div>
