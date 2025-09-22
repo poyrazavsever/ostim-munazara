@@ -13,3 +13,88 @@
 body {
     @apply text-text bg-bg;
 }
+
+.mdCustom {
+    color: var(--color-text);
+    background: var(--color-bg);
+    max-width: 100%;
+    font-family: inherit;
+}
+.mdCustom h1, .mdCustom h2, .mdCustom h3, .mdCustom h4, .mdCustom h5, .mdCustom h6 {
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+    margin-top: 1.5rem;
+    line-height: 1.2;
+}
+.mdCustom h1 { font-size: 1.875rem; }
+.mdCustom h2 { font-size: 1.5rem; }
+.mdCustom h3 { font-size: 1.25rem; }
+.mdCustom h4 { font-size: 1.125rem; }
+.mdCustom h5 { font-size: 1rem; }
+.mdCustom h6 { font-size: 0.875rem; }
+.mdCustom p {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+.mdCustom ul, .mdCustom ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+.mdCustom ul {
+    list-style-type: disc;
+}
+.mdCustom ol {
+    list-style-type: decimal;
+}
+.mdCustom li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+.mdCustom a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+.mdCustom a:hover {
+    color: #be185d;
+}
+.mdCustom blockquote {
+    border-left: 4px solid var(--color-primary);
+    padding-left: 1rem;
+    font-style: italic;
+    color: #52525b;
+    background: #f3f4f6;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 1rem 0;
+}
+.mdCustom code {
+    background: #e5e7eb;
+    color: #be185d;
+    padding: 0.125rem 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-family: monospace;
+}
+.mdCustom pre {
+    background: #18181b;
+    color: #fafafa;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+    font-size: 0.95em;
+}
+.mdCustom img {
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+.mdCustom hr {
+    border-top: 1px solid #d4d4d8;
+    margin: 1.5rem 0;
+}
