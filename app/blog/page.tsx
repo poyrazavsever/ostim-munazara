@@ -4,12 +4,14 @@ import BlogCard from "@/components/ui/BlogCard";
 
 const blogPosts = [
   {
-    imageUrl: "/images/gallery-1.jpeg",
-    title: "Kurumsal Blog Yazısı 1",
-    description: "Kurumsal blog için örnek bir yazı. Şirket gelişmeleri, duyurular ve sektörel bilgiler burada paylaşılır.",
-    author: "Ostim Münazara",
+    imageUrl: "/images/blog.png",
+    title:
+      "Yazılım Dünyasında Hitabet Sanatının Gücü: İletişimin Yazılım Dünyasına Etkisi",
+    description:
+      "Yazılım projelerinde teknik becerilerin yanında hitabet ve etkili iletişimin rolü büyüktür. Bu yazı, ekip içi işleyişten müşteri ilişkilerine, sunumdan problem çözmeye kadar hitabet yeteneğinin nasıl fark yaratabileceğini ve yazılımcıların kendilerini nasıl daha iyi ifade edebileceklerini ele alıyor.",
+    author: "Poyraz Avsever",
     date: "20 Eylül 2025",
-    slug: "example-blog",
+    slug: "yazilim-munazara",
   },
 ];
 
