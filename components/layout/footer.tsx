@@ -216,11 +216,11 @@ const Footer = () => {
 
       {/* Alt şerit */}
       <div className="border-t border-neutral-200 bg-neutral-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="mx-auto max-w-7xl px-4 sm:px-0 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <p className="text-sm text-neutral-600">
             © {year} Ostim Münazara ve Hitabet Topluluğu. Tüm hakları saklıdır.
           </p>
-          <ul className="flex items-center gap-5 text-sm">
+          <ul className="flex flex-col sm:flex-row items-start sm:items-center gap-5 text-sm">
             <li>
               <Link href="/gizlilik" className="hover:text-primary">
                 Gizlilik
@@ -229,6 +229,16 @@ const Footer = () => {
             <li>
               <Link href="/kullanim-sartlari" className="hover:text-primary">
                 Kullanım Şartları
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.poyrazavsever.com"
+                target="_blank"
+                className="hover:underline flex items-center gap-1"
+              >
+                <span>Created by</span>
+                <span className="font-wind text-lg text-primary">Poyraz Avsever</span>
               </Link>
             </li>
           </ul>
