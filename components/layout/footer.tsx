@@ -25,8 +25,8 @@ const navLinks = [
   {
     label: "Uygulamalar",
     dropdown: [
-      { href: "/konum-ayarla", label: "Konum Ayarla" },
-      { href: "/rastgele-konu", label: "Rastgele Konu" },
+      { href: "/uygulamalar/konum-ayarla", label: "Konum Ayarla" },
+      { href: "/uygulamalar/rastgele-konu", label: "Rastgele Konu" },
     ],
   },
   { href: "/etkinlik-takvimi", label: "Etkinlik Takvimi" },
