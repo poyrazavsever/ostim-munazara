@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ostim Münazara Topluluğu Web Sitesi
 
-## Getting Started
+![Ostim Münazara Topluluğu Logo](/public/logos/logo.png)
 
-First, run the development server:
+Ostim Münazara Topluluğu, gençlerin eleştirel düşünme ve hitabet becerilerini geliştirmesi için bir araya geldiği dinamik bir topluluktur.  
+Bu web sitesi; etkinliklerimizi, duyurularımızı ve topluluk haberlerimizi modern bir arayüzle paylaşmamızı sağlar.
+
+## Proje Hakkında
+
+Bu proje **Next.js** ve **Tailwind CSS** kullanılarak geliştirildi.  
+**Framer Motion** ile animasyonlar, **Iconify** ile ikonlar entegre edildi.  
+Kullanıcı deneyimini ön planda tutan hızlı, erişilebilir ve SEO dostu bir yapı hedeflendi.
+
+### Öne Çıkan Özellikler
+- Etkinlik ve duyuru sayfaları  
+- **Sağdan açılan modern modal bileşeni** ile hızlı bilgi erişimi  
+- Mobil uyumlu, hafif ve optimize edilmiş performans  
+
+---
+
+<div style="position:relative; width:100%; display:flex; justify-content:flex-end; margin-top:2rem;">
+  <div style="
+    width: 380px;
+    background: #f9fafb;
+    border-left: 3px solid #1e40af;
+    border-radius: 0.5rem 0 0 0.5rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+  ">
+    <h3 style="margin-top:0;">Gelecek Planları</h3>
+    <p>Web sitemizi bir adım ileri taşıyarak <strong>full-stack bir uygulamaya</strong> dönüştürmeyi planlıyoruz.</p>
+    <ul>
+      <li>Kullanıcılar site üzerinden kayıt olup topluluğa katılabilecek</li>
+      <li>Duyurular ve etkinlikler için bildirim sistemi eklenecek</li>
+      <li>Üyeler etkinliklere çevrim içi başvuru yapabilecek</li>
+      <li>Yönetici paneli ile etkinlikler ve içerikler kolayca yönetilebilecek</li>
+    </ul>
+    <p>Bu sayede topluluğumuzun dijital deneyimi daha etkileşimli, erişilebilir ve sürdürülebilir hale gelecek.</p>
+  </div>
+</div>
+
+---
+
+## Kullanılan Teknolojiler
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Iconify](https://iconify.design/)
+
+## Kurulum ve Çalıştırma
 
 ```bash
+git clone https://github.com/username/ostim-munazara.git
+cd ostim-munazara
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcınızdan [http://localhost:3000](http://localhost:3000) adresini ziyaret edin.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Katkıda Bulunma
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Önerilerinizi ve geliştirmelerinizi issue veya pull request olarak gönderebilirsiniz.
