@@ -35,49 +35,49 @@ const events = [
     start: new Date(2025, 8, 23, 10, 0),
     end: new Date(2025, 8, 23, 17, 0),
     allDay: false,
-    desc: "Tanıtım standı açık."
+    desc: "Tanıtım standı açık.",
   },
   {
     title: "Stand Günü",
     start: new Date(2025, 8, 24, 10, 0),
     end: new Date(2025, 8, 24, 17, 0),
     allDay: false,
-    desc: "Tanıtım standı açık."
+    desc: "Tanıtım standı açık.",
   },
   {
     title: "Stand Günü",
     start: new Date(2025, 8, 25, 10, 0),
     end: new Date(2025, 8, 25, 17, 0),
     allDay: false,
-    desc: "Tanıtım standı açık."
+    desc: "Tanıtım standı açık.",
   },
   {
     title: "Stand Günü",
     start: new Date(2025, 8, 26, 10, 0),
     end: new Date(2025, 8, 26, 17, 0),
     allDay: false,
-    desc: "Tanıtım standı açık."
+    desc: "Tanıtım standı açık.",
+  },
+  {
+    title: "Tanışma Toplantısı",
+    start: new Date(2025, 8, 30, 16, 0),
+    end: new Date(2025, 8, 30, 17, 0),
+    allDay: false,
+    desc: "Tanışma toplantısı.",
   },
   {
     title: "Parlamenter Münazara 101",
-    start: new Date(2025, 9, 14, 18, 0),
-    end: new Date(2025, 9, 14, 20, 0),
+    start: new Date(2025, 9, 14, 16, 0),
+    end: new Date(2025, 9, 14, 17, 0),
     allDay: false,
-    desc: "Eğitim ve tanışma etkinliği."
-  },
-  {
-    title: "Gösteri Maçı",
-    start: new Date(2025, 9, 18, 17, 30),
-    end: new Date(2025, 9, 18, 19, 0),
-    allDay: false,
-    desc: "Canlı münazara gösterisi."
+    desc: "Eğitim ve tanışma etkinliği.",
   },
   {
     title: "Parlamenter Münazara 101 - 2",
-    start: new Date(2025, 9, 30, 18, 0),
-    end: new Date(2025, 9, 30, 20, 0),
+    start: new Date(2025, 9, 28, 16, 0),
+    end: new Date(2025, 9, 28, 17, 0),
     allDay: false,
-    desc: "İkinci eğitim oturumu."
+    desc: "İkinci eğitim oturumu.",
   },
 ];
 
